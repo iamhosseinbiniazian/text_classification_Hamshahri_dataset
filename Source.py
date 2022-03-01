@@ -16,7 +16,7 @@ for doc in hamshahri.texts():
 alllabel=list(set(alllabel))
 print(len(alllabel))
 print(alllabel)
-with open('/home/apasai/PycharmProjects/textClassificationWithMagpie/data/Hamshahri.labels','w') as file:
+with open('data/Hamshahri.labels','w') as file:
     for i in alllabel:
         file.write(i+'\n')
 
